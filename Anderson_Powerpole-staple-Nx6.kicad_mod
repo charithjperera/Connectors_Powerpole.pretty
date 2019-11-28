@@ -1,4 +1,5 @@
-(module Anderson:APP-staple-Nx6 (layer F.Cu) (tedit 53FCFA17)
+(module Anderson_Powerpole-staple-Nx6 (layer F.Cu) (tedit 5DDF42A8)
+  (descr "Place center of staples 9.9mm from far end of connector")
   (tags "Anderson Powerpole PCB staple Nx6")
   (fp_text reference S** (at 0 -0.8) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
