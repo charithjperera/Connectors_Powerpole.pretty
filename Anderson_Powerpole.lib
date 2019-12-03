@@ -3,7 +3,7 @@ EESchema-LIBRARY Version 2.4
 #
 # Anderson_PP45_Power_RA
 #
-DEF Anderson_PP45_Power_RA J 0 40 Y Y 1 F P
+DEF Anderson_PP45_Power_RA J 0 40 Y Y 1 F N
 F0 "J" 450 -300 50 H V C CNN
 F1 "Anderson_PP45_Power_RA" 500 50 50 H V C CNN
 F2 "Anderson_Powerpole:Anderson_Powerpole-45A-RA-Bottom-Pair" 350 -400 50 H I C CNN
@@ -12,6 +12,20 @@ DRAW
 S 0 0 400 -300 0 1 0 N
 X Positive 1 500 -100 100 L 50 50 1 1 P
 X Negative 2 500 -200 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Anderson_PP45_Staple_Nx2
+#
+DEF Anderson_PP45_Staple_Nx2 M 0 40 Y Y 1 F N
+F0 "M" 140 0 50 H V C CNN
+F1 "Anderson_PP45_Staple_Nx2" 30 -70 50 H V C CNN
+F2 "Anderson_Powerpole:Anderson_Powerpole-staple-Nx2" 0 100 50 H I C CNN
+F3 "" 0 100 50 H I C CNN
+DRAW
+C -50 0 22 1 1 0 N
+C 50 0 22 1 1 0 N
+P 2 0 1 0 -30 0 30 0 N
 ENDDRAW
 ENDDEF
 #
