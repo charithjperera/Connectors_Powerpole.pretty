@@ -1,10 +1,10 @@
-(module Anderson_Powerpole-staple-Nx2 (layer F.Cu) (tedit 5DDF4278)
+(module Anderson_Powerpole-staple-Nx2 (layer F.Cu) (tedit 5DEAE169)
   (descr "Place center of staples 9.9mm from far end of connector")
   (tags "Anderson Powerpole PCB staple Nx2")
   (fp_text reference S** (at 0 -0.8) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value APP-staple-Nx2 (at 0 1.6) (layer F.SilkS) hide
+  (fp_text value APP-staple-Nx2 (at 0 1.6) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (pad "" np_thru_hole circle (at -7.25 0) (size 1 1) (drill 1) (layers *.Cu *.Mask F.SilkS))
