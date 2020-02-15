@@ -15,6 +15,38 @@ X Negative 2 500 -200 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Anderson_PP45_Power_RA_Kelvin_Device
+#
+DEF Anderson_PP45_Power_RA_Kelvin_Device J 0 40 Y Y 1 F N
+F0 "J" 450 -550 50 H V C CNN
+F1 "Anderson_PP45_Power_RA_Kelvin_Device" 500 50 50 H V C CNN
+F2 "Anderson_Powerpole:Anderson_Powerpole-45A-RA-Both-4" 550 -550 50 H I C CNN
+F3 "" 400 400 50 H I C CNN
+DRAW
+S 0 0 400 -500 0 1 0 N
+X Sense- 1 500 -400 100 L 50 50 1 1 P
+X Negative 2 500 -300 100 L 50 50 1 1 P
+X Sense+ 3 500 -100 100 L 50 50 1 1 P
+X Positive 4 500 -200 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Anderson_PP45_Power_RA_Kelvin_Host
+#
+DEF Anderson_PP45_Power_RA_Kelvin_Host J 0 40 Y Y 1 F N
+F0 "J" 450 -550 50 H V C CNN
+F1 "Anderson_PP45_Power_RA_Kelvin_Host" 500 50 50 H V C CNN
+F2 "Anderson_Powerpole:Anderson_Powerpole-45A-RA-Both-4" 550 -550 50 H I C CNN
+F3 "" 400 400 50 H I C CNN
+DRAW
+S 0 0 400 -500 0 1 0 N
+X Negative 1 500 -300 100 L 50 50 1 1 P
+X Sense- 2 500 -400 100 L 50 50 1 1 P
+X Positive 3 500 -200 100 L 50 50 1 1 P
+X Sense+ 4 500 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Anderson_PP45_Staple_Nx2
 #
 DEF Anderson_PP45_Staple_Nx2 M 0 40 Y Y 1 F N

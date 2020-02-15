@@ -5,4 +5,14 @@ D Anderson Powerpole PP45 Power Connection - RA Bottom Row
 F https://www.andersonpower.com/content/dam/app/ecommerce/product-pdfs/DS-PP1545.pdf
 $ENDCMP
 #
+$CMP Anderson_PP45_Power_RA_Kelvin_Device
+D Anderson Powerpole PP45 Power Connection - RA Kelvin Block - Device End
+F https://www.andersonpower.com/content/dam/app/ecommerce/product-pdfs/DS-PP1545.pdf
+$ENDCMP
+#
+$CMP Anderson_PP45_Power_RA_Kelvin_Host
+D Anderson Powerpole PP45 Power Connection - RA Kelvin Block - Host End
+F https://www.andersonpower.com/content/dam/app/ecommerce/product-pdfs/DS-PP1545.pdf
+$ENDCMP
+#
 #End Doc Library
