@@ -10,8 +10,8 @@ F2 "Anderson_Powerpole:Anderson_Powerpole-45A-RA-Bottom-Pair" 350 -400 50 H I C 
 F3 "" 400 400 50 H I C CNN
 DRAW
 S 0 0 400 -300 0 1 0 N
-X Positive 1 500 -100 100 L 50 50 1 1 P
-X Negative 2 500 -200 100 L 50 50 1 1 P
+X Negative 1 500 -200 100 L 50 50 1 1 P
+X Positive 2 500 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
